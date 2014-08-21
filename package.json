@@ -1,0 +1,20 @@
+{
+  "name": "esp",
+  "version": "0.0.1",
+  "description": "Gestion des espaces insécables dans les chaînes javascript DOM",
+  "main": "esp.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "espace",
+    "space",
+    "espace insécable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjdf974/esp.git"
+  },
+  "author": "pjdf974",
+  "license": "free"
+}
