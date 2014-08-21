@@ -6,13 +6,21 @@ Gestion des espaces insécables dans le DOM
 Utilisation : privée
 
 fix(chaine)
+
 		conservation des espaces de la 'chaine'
+
 lim(chaine, limit, apres)
+
 		Retourne une chaine de caractère dont la longueur = 'limit' en complétant par des espaces si nécessaire.
+
          * si 'apres' est true(valeur par défaut = true), les espaces sont ajoutés après la chaîne, sinon, ils sont ajoutés avant.
+
 pop(chaine)
+
 		ote tous les espaces EN FIN DE CHAINE même si 'chaine' a été codée par esp.fix
+
 del(chaine)
+
 		ote tous les espaces même si 'chaine' a été codée avec esp.fix
  
 -------------------------
