@@ -1,6 +1,6 @@
 {
-  "name": "esp",
-  "version": "0.0.1",
+  "name": "pfesp",
+  "version": "0.0.3",
   "description": "Gestion des espaces insécables dans les chaînes javascript DOM",
   "main": "esp.js",
   "scripts": {

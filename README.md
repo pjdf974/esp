@@ -1,22 +1,32 @@
-esp
-===
+pfesp
+=====
 
 Gestion des espaces insécables dans le DOM
 
-Utilisation : privée
+Installation : npm install pfesp
+
+Utilisation : (privée)
+
+Node.js : var esp = require("pfesp");
+
+HTML    : script src="esp.js" après avoir copier le fichier esp.js dans le même
+          répertoire que la page html. (esp.js se trouve dans node_modules/pfesp/)
 
 fix(chaine)
-		conservation des espaces de la 'chaine'
+
+		conservation des espaces de 'chaine'
 
 lim(chaine, limit, apres)
-		Retourne une chaine de caractère dont la longueur = 'limit' en complétant par des espaces si nécessaire.
 
+		Retourne une chaine de caractère dont la longueur = limit' en complétant par des espaces si nécessaire.
          * si 'apres' est true(valeur par défaut = true), les espaces sont ajoutés après la chaîne, sinon, ils sont ajoutés avant.
 
 pop(chaine)
+
 		ote tous les espaces EN FIN DE CHAINE même si 'chaine' a été codée par esp.fix
 
 del(chaine)
+
 		ote tous les espaces même si 'chaine' a été codée avec esp.fix
  
 -------------------------
@@ -61,7 +71,7 @@ EXEMPLE 1:
 
 EXEMPLE 2 :
 ```js
-var esp = require("esp");
+var esp = require("pfesp");
 
 var ch = "Salut";
 
