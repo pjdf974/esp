@@ -18,7 +18,7 @@ fix(chaine)
 
 lim(chaine, limit, apres)
 
-		Retourne une chaine de caractère dont la longueur = limit' en complétant par des espaces si nécessaire.
+		Retourne une chaine de caractère dont la longueur = 'limit' en complétant par des espaces si nécessaire.
          * si 'apres' est true(valeur par défaut = true), les espaces sont ajoutés après la chaîne, sinon, ils sont ajoutés avant.
 
 pop(chaine)
