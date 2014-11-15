@@ -31,7 +31,7 @@ var esp = {
             //console.log("Chaine Espaces", chaine, espaces, typeof(chaine));
         };
         if(longueur>=espaces && apres)
-            return(chaine.substring(0,espaces));
+            return(chaine.toString().substring(0,espaces));
         else // complete aussi si la chaine est vide !
             for(var i=0; i<espaces - longueur; i++)
                 if(apres)
